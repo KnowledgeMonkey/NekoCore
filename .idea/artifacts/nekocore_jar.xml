@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="nekocore:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/nekocore_jar</output-path>
+    <root id="archive" name="nekocore.jar">
+      <element id="module-output" name="nekocore" />
+    </root>
+  </artifact>
+</component>

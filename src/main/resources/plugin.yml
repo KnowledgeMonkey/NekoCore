@@ -1,0 +1,27 @@
+name: NekoCore
+version: 1.0
+main: com.nox.nekoCore.NekoCore
+api-version: 1.20
+author: Nox
+description: A core plugin for managing server essentials.
+commands:
+  broadcast:
+    description: Broadcasts a message to all players.
+    usage: /broadcast <message>
+    permission: nekocore.broadcast
+  teleport:
+    description: Teleports one player to another.
+    usage: /teleport <player> <target>
+    permission: nekocore.teleport
+  setspawn:
+    description: Sets the server spawn point.
+    usage: /setspawn
+    permission: nekocore.setspawn
+  spawn:
+    description: Teleports a player to the server spawn point.
+    usage: /spawn
+    permission: nekocore.spawn
+  nekocore:
+    description: Main command for the NekoCore plugin.
+    usage: /nekocore [reload]
+    permission: nekocore.admin
